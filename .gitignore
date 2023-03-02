@@ -136,6 +136,7 @@ fabric.properties
 !.idea/runConfigurations
 
 migrations/
+**.pyc
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,pycharm+all,database,dotenv
 
