@@ -1,0 +1,35 @@
+{%  extends "base.html" %}
+{% load static %}
+
+{% block title %}
+  This Post Title
+{% endblock %}
+
+{% block css_files %}
+  <link rel="stylesheet" href="{% static "blog/post_detail.css" %}">
+{% endblock %}
+
+{% block content %}
+  <section id="summary">
+    <h2>Post Title</h2>
+    <article>
+      <img src="{% static "blog/images/mountains.jpg" %}" alt="Post Title">
+      <address>By Youngjin</address>
+      <div>
+        Last updated on <time>March 2nd</time>
+      </div>
+    </article>
+  </section>
+
+  <main>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ea et eveniet minima quasi quos sunt! Cum dignissimos ducimus eaque, eveniet excepturi ipsum iure maxime neque, omnis perferendis sapiente veniam!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ea et eveniet minima quasi quos sunt! Cum dignissimos ducimus eaque, eveniet excepturi ipsum iure maxime neque, omnis perferendis sapiente veniam!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ea et eveniet minima quasi quos sunt! Cum dignissimos ducimus eaque, eveniet excepturi ipsum iure maxime neque, omnis perferendis sapiente veniam!
+    </p>
+  </main>
+{% endblock %}
